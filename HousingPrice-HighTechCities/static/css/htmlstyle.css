@@ -1,0 +1,34 @@
+.container{
+    height:250px;
+}
+
+.header{
+    height: 100px;
+    padding-top: 20px;
+    background: black;
+}
+.header h1 {
+    /* padding: 10px; */
+    margin: 0;
+    font-size:25pt;
+    font-family:'Times New Roman';
+    color:whitesmoke;
+    text-align: center;
+}
+.header h2 {
+    margin: 0;
+    font-size:15pt;
+    font-family:'Times New Roman';
+    font-style: italic;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.map-container{
+    /* width:650px; */
+    height:650px;
+}
+#mapright{
+    width:650px;
+    height:650px;
+}
