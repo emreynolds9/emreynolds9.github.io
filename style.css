@@ -14,22 +14,11 @@ body {
   background: lightgray;
 }
 
-.responsive-img {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  padding-right: 5px;
-  padding-bottom:5px;
-}
-.responsive-img-sm {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-}
 
 .img-fluid{
   max-width: 100%;
   width: 400;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -37,3 +26,11 @@ body {
   border:3px solid #303030;
 }
 
+.item {
+  margin: 0px;
+}
+.item:hover {
+    background: #e1e1e1;
+    border: 3px solid #3b3636;
+    margin: 0px;
+}
