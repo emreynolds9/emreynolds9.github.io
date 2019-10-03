@@ -1,6 +1,8 @@
 body {
   font-family: 'Zilla Slab', monospace;
-  font-size: 20px
+  font-size: 20px;
+  text-align: justify
+
 }
 
 h1,h2,h3 {
@@ -27,8 +29,16 @@ h1,h2,h3 {
 .item {
   border: 3px solid white;
   transition: all 0.2s ease-in-out;
-
 }
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .item:hover {
     background: #e1e1e1;
     border: 3px solid #3b3636;
