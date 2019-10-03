@@ -62,7 +62,6 @@ h1,h2,h3 {
   width: 300px
 }
 
-
 .img-border {
   border:0px solid lightgray;
 }
@@ -84,7 +83,6 @@ h1,h2,h3 {
   margin-left: none
 }
 
-
 @media screen and (min-width: 1400px) {
   .custom-sidebar{
     top: 82px;
@@ -104,7 +102,6 @@ h1,h2,h3 {
     margin-left: 250px
   }
 }
-
 
 @media screen and (min-width: 768px) {
 
