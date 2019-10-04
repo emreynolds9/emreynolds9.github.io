@@ -17,7 +17,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://github.com/emreynolds9/emreynolds9.github.io/blob/master/style.css">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab|Source+Code+Pro&display=swap" rel="stylesheet">
@@ -25,20 +25,41 @@
 
 <body>
   <!-- NAVIGATION BAR -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-expand-lg navbar-dark" style="background-color: #303030">
-    <span class="navbar-brand mb-0 h1">
-      <h1>Emily Reynolds</h1>
-    </span>
-    <a class="navbar-brand" href="emilyreynolds.me">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-expand-lg navbar-dark"
+  style="background-color: #303030; padding:0px; padding-left:12px; padding-right:12px">
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <span class="navbar" style="color:white">
+          <a href="emilyreynolds.me">
+            <h2 style="margin: 0px;margin-top:18px; color:white">Emily Reynolds</h2>
+            <p style="text-align: right; font-size: 12px; padding: 0px;margin: 0px; color:white">(Home)</p>
+            </a>
+          </span>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="http://www.emilyreynolds.me/Weather-vs-Latitude/"
+            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true">
+            Weather vs Latitude
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="http://www.emilyreynolds.me/Weather-vs-Latitude/" target="_blank">
+              Project Home</a>
+            <a class="dropdown-item" href="http://www.emilyreynolds.me/Weather-vs-Latitude/comparisons"
+              target="_blank">Weather &
+              Comparisons</a>
+            <a class="dropdown-item" href="http://www.emilyreynolds.me/Weather-vs-Latitude/data" target="_blank">
+              Data</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Housing in High
+            Tech Cities <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://emreynolds9.github.io/Earthquake-Map">Earthquakes Map<span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="https://github.com/Nishadows/housingmarket" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,7 +72,7 @@
               Recent
               Earthquakes</a>
           </div>
-        </li>
+        </li> -->
       </ul>
       <a href="https://github.com/emreynolds9" style="background-color: #6e5494" class="btn btn-md" role="button"
         aria-pressed="true" target="_blank">
@@ -74,20 +95,21 @@
       <!--Normally these medium columns go full wide on small screen sizes-->
       <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 custom-sidebar">
         <div class="affix">
-        <div class="box" style="padding:30px">
-          <!-- <img src="https://theihs.org/wp-content/uploads/2018/02/Reynolds-IMG_6544-767x767.jpg" alt="Headshot"
+          <div class="box" style="padding:30px">
+            <!-- <img src="https://theihs.org/wp-content/uploads/2018/02/Reynolds-IMG_6544-767x767.jpg" alt="Headshot"
             class="headshot-lg headshot-sm" > -->
-          <p>Hello and welcome to my website. My name is Emily Reynolds, and I am an aspiring data analyst in Arlington, Virginia.
-            I grew up in Fort Myers, Florida, and currently work as a programs specialist at an academic
-            non-profit.</p>
-          <p>I recently completed a 24-week Data Analytics Boot Camp at George Washington University where I
-            developed my data analysis, cleaning, visualization, and application development skills.
-            I learned so much while in this class, but particularly enjoyed working with Python, JavaScript, and
-            Tableau.
-            <p>You can see the complete syllabus
-              for the program <a href="https://bootcamp.cps.gwu.edu/data/" target="_blank">here</a>.</p>
-          </p>
-        </div>
+            <p>Hello and welcome to my website. My name is Emily Reynolds, and I am an aspiring data analyst in
+              Arlington, Virginia.
+              I grew up in Fort Myers, Florida, and currently work as a programs specialist at an academic
+              non-profit.</p>
+            <p>I recently completed a 24-week Data Analytics Boot Camp at George Washington University where I
+              developed my data analysis, cleaning, visualization, and application development skills.
+              I learned so much while in this class, but particularly enjoyed working with Python, JavaScript, and
+              Tableau.
+              <p>You can see the complete syllabus
+                for the program <a href="https://bootcamp.cps.gwu.edu/data/" target="_blank">here</a>.</p>
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 custom-content">
