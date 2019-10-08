@@ -88,12 +88,15 @@ h1,h2,h3 {
   top: none;
   position: none;
   padding:20px;
-  margin-top: -20px
+  margin-top: -20px;
+  max-width: 33vw;
 
 }
 
 .custom-content{
   margin-left: none;
+  max-width: 66vw;
+
 }
 
 @media screen and (min-width: 1400px) {
