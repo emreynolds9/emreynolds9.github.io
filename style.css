@@ -6,10 +6,11 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5{
     font-family: 'Zilla Slab', monospace;
        text-align: left !important;
-
 }
 
 .btn {
@@ -48,20 +49,11 @@ h3 {
     transition: all 0.2s ease-in-out;
 }
 
-.box {
-    min-height: 50px;
-    max-width: 950px;
+.custom-content {
     padding: 15px;
-    margin-top: 5px;
     color: #303030;
     font-family: 'Source Code Pro', monospace;
-    font-size: 17px;
     background: #e1e1e1;
-
-}
-
-.custom-content{
-    
 }
 
 .custom
@@ -113,8 +105,7 @@ h3 {
     }
 }
 
-@media all and (min-width: 900px) {
-    
+@media all and (min-width: 996px) {
     .custom-sidebar{
       position: fixed;
     }
@@ -122,7 +113,7 @@ h3 {
 
 
 /* this is so that the columns are stacked when the breakpoint is reached */
-@media all and (max-width: 900px) {
+@media all and (max-width: 995px) {
     
     .sidebar{
       position: relative;
