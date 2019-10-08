@@ -81,7 +81,7 @@ h4{
 
 /* large */
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
     .img-fluid {
         max-height: 100%;
@@ -95,7 +95,7 @@ h4{
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
     .img-fluid {
         max-height: 100%;
         position: absolute;
@@ -107,25 +107,25 @@ h4{
     }
 }
 
-@media all and (min-width: 996px) {
+@media only screen and (min-width: 996px) {
     .custom-sidebar{
       position: fixed;
        left:5vw
     }
-    
+
       .custom-content{
-    right: 5vw 
+    right: 5vw
     }
 }
 
 
 /* this is so that the columns are stacked when the breakpoint is reached */
-@media all and (max-width: 995px) {
-    
+@media only screen and (max-width: 995px) {
+
     .sidebar{
       position: relative;
     }
-    
+
     .custom-content{
       position: relative;
     }
