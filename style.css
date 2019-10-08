@@ -47,11 +47,14 @@ h1,h2,h3 {
 
 .box {
   min-height: 50px;
-  padding: 20px;
-  margin-top: 0px;
+  max-width: 950px;
+  padding: 15px;
+  margin-top: 5px;
   color: #303030;
   font-family: 'Source Code Pro', monospace;
-  font-size: 17px
+  font-size: 17px;
+  background: #e1e1e1;
+
 }
 
 .purple {
@@ -140,6 +143,15 @@ h1,h2,h3 {
     float: left;
     padding: 0px;
     width: 0px
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+  .btn{
+    margin-top:10px;
+    margin-bottom: 20px
   }
 
 }
