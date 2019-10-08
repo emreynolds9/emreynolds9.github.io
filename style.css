@@ -80,7 +80,7 @@ h3 {
     border: 3px solid #3b3636;
 }
 
-.custom-sidebar {
+/* .custom-sidebar {
     top: none;
     position: fixed;
     padding: 20px;
@@ -92,13 +92,14 @@ h3 {
 .custom-content {
     margin-left: none;
     max-width: 66vw;
-
 }
+ */
+
 
 /* large */
 
 @media screen and (min-width: 1200px) {
-    .custom-sidebar {
+/*     .custom-sidebar {
         top: 70px;
         position: fixed;
         max-width: 33vw;
@@ -107,7 +108,7 @@ h3 {
     .custom-content {
         margin-left: 34vw;
         max-width: 66vw;
-    }
+    } */
 
     .img-fluid {
         /* max-width: 100%; */
@@ -139,6 +140,16 @@ h3 {
     }
 }
 
+this is so that the columns are stacked when the breakpoint is reached
+@media all and (max-width: 980px) {
+    .custom-content {
+        position: relative; 
+        : 200px; 
+        top: -200px; 
+        margin-top: 550px; 
+        margin-bottom:-200px
+    }
+}
 
 .btn {
     margin-top: 10px;
