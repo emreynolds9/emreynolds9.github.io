@@ -1,7 +1,7 @@
 p,
 li,
 a {
-    font-family: 'Zilla Slab', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     text-align: justify
 }
@@ -62,11 +62,11 @@ h3 {
 
 }
 
-.purple {
-    background: #e1e1e1;
+.custom-content{
+    
 }
 
-
+.custom
 .img-fluid {
     max-height: none;
 }
