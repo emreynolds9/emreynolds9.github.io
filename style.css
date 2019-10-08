@@ -142,12 +142,20 @@ h3 {
 
 /* this is so that the columns are stacked when the breakpoint is reached */
 @media all and (max-width: 900px) {
-    .custom-content {
+/*   .custom-content {
         position: relative; 
-/*         bottom: 200px;  */
+    bottom: 200px;
         top: -200px; 
         margin-top: 550px; 
-        margin-bottom:-200px
+        margin-bottom:-200px;
+    } */
+    
+    .custom-sidebar{
+      position: none;
+    }
+    
+    .custom-content{
+      position: relative;
     }
 }
 
