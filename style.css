@@ -110,6 +110,7 @@ h4{
 @media all and (min-width: 996px) {
     .custom-sidebar{
       position: fixed;
+       left:3vw
     }
 }
 
