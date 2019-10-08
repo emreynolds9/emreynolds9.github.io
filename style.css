@@ -1,4 +1,6 @@
-body {
+p,
+li,
+a {
     font-family: 'Zilla Slab', monospace;
     font-size: 20px;
     text-align: justify
@@ -8,6 +10,8 @@ h1,
 h2,
 h3 {
     font-family: 'Zilla Slab', monospace;
+       text-align: left !important;
+
 }
 
 .btn {
