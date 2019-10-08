@@ -127,6 +127,7 @@ h3 {
 }
 
 
+
 @media all and (min-width: 768px) and (max-width: 1199px) {
     .img-fluid {
         max-height: 100%;
@@ -139,6 +140,10 @@ h3 {
         margin: auto;
     }
 }
+
+    .custom-sidebar{
+      position: fixed;
+    }
 
 /* this is so that the columns are stacked when the breakpoint is reached */
 @media all and (max-width: 900px) {
