@@ -1,14 +1,19 @@
-p {
+p,a {
     font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     text-align: justify
 }
 
+a.nav-link {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    text-align: left
+}
+
 h1,
 h2,
 h3,
-h4,
-h5{
+h4{
     font-family: 'Zilla Slab', monospace;
        text-align: left !important;
 }
@@ -50,13 +55,12 @@ h5{
 }
 
 .custom-content {
-    padding: 15px;
+    padding: 15px !important;
     color: #303030;
     font-family: 'Source Code Pro', monospace;
     background: #e1e1e1;
 }
 
-.custom
 .img-fluid {
     max-height: none;
 }
