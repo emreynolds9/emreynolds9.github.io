@@ -86,11 +86,13 @@ h1,h2,h3 {
 
 .custom-sidebar{
   top: none;
-  position: none
+  position: none;
+  padding:20px
+
 }
 
 .custom-content{
-  margin-left: none
+  margin-left: none;
 }
 
 @media screen and (min-width: 1400px) {
