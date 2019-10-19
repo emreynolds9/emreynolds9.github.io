@@ -65,6 +65,13 @@ h4{
     max-height: none;
 }
 
+.headshot {
+  max-width:200px;
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
 .img-border {
     border: 0px solid lightgray;
 }
@@ -130,6 +137,32 @@ h4{
       position: relative;
     }
 }
+
+.headshot-invisible{
+  width:0px
+}
+
+@media only screen and (max-width: 350px) {
+
+  .headshot{
+    width:0px
+  }
+
+  .headshot-invisible{
+    width:200px;
+    max-width: 95vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+  }
+}
+
+
+
+
+
 
 .btn {
     margin-top: 10px;
