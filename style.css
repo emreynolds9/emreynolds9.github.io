@@ -40,6 +40,12 @@ h4{
     transition: all 0.2s ease-in-out;
 }
 
+.divScroll {
+overflow:scroll;
+height:25px;
+width:200px;
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 0px;
